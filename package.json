@@ -1,20 +1,8 @@
 {
-  "name": "introduction-to-gatsby",
+  "name": "first-gatsby",
   "version": "1.0.0",
   "description": "Course Repo: https://github.com/wtlin1228/gatsby-intro",
-  "main": "index.js",
-  "scripts": {
-    "build": "gatsby build",
-    "dev": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run dev",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "analyze": "cross-env ANALYZE_BUNDLE_SIZE=true gatsby build"
-  },
-  "keywords": [],
-  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
-  "license": "MIT",
+  "main": "gatsby-config.js",
   "dependencies": {
     "@emotion/react": "11.1.4",
     "@emotion/styled": "11.0.0",
@@ -40,8 +28,24 @@
     "cross-env": "7.0.3",
     "prettier": "2.2.1"
   },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "analyze": "cross-env ANALYZE_BUNDLE_SIZE=true gatsby build"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wtlin1228/introduction-to-gatsby"
-  }
+    "url": "git+https://github.com/wtlin1228/first-gatsby.git"
+  },
+  "keywords": [],
+  "author": "Wei-Tang Lin <wtlin1228@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtlin1228/first-gatsby/issues"
+  },
+  "homepage": "https://github.com/wtlin1228/first-gatsby#readme"
 }
